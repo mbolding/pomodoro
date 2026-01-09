@@ -32,22 +32,26 @@ class ClockView: NSView {
         let faceRect = CGRect(x: Double(center.x) - radius, y: Double(center.y) - radius, width: radius * 2, height: radius * 2)
         context.strokeEllipse(in: faceRect)
         
-        // 2. Draw Hour Markers (Ticks)
-        context.setLineWidth(2)
+        // 2. Draw Hour Markers (Dots)
+        context.setFillColor(NSColor.labelColor.cgColor)
         for i in 0..<12 {
-            // Using Double explicitly solves the "ambiguity"
             let angle = Double(i) * (2.0 * Double.pi / 12.0)
-            let p1 = CGPoint(
-                x: Double(center.x) + (radius * 0.85) * cos(angle), 
-                y: Double(center.y) + (radius * 0.85) * sin(angle)
+            let dist = radius * 0.9
+            
+            let dotCenter = CGPoint(
+                x: Double(center.x) + dist * cos(angle),
+                y: Double(center.y) + dist * sin(angle)
             )
-            let p2 = CGPoint(
-                x: Double(center.x) + radius * cos(angle), 
-                y: Double(center.y) + radius * sin(angle)
+            
+            // Draw a small dot
+            let dotRadius: Double = 3.0
+            let dotRect = CGRect(
+                x: Double(dotCenter.x) - dotRadius,
+                y: Double(dotCenter.y) - dotRadius,
+                width: dotRadius * 2,
+                height: dotRadius * 2
             )
-            context.move(to: p1)
-            context.addLine(to: p2)
-            context.strokePath()
+            context.fillEllipse(in: dotRect)
         }
         
         // 3. Get Current Time
