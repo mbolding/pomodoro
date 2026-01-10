@@ -25,6 +25,7 @@ These scripts run a text-based countdown timer in your terminal.
 | **Rust** | `rust/` | `cd rust && cargo run` |
 | **Swift** | `swift/pomodoro.swift` | `cd swift && ./pomodoro.swift` |
 | **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
+| **JavaScript** | `javascript/pomodoro.js` | `cd javascript && ./pomodoro.js` (or `node javascript/pomodoro.js`) |
 
 ### Graphical User Interface (GUI)
 

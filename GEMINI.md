@@ -29,6 +29,7 @@ All implementations adhere to the following timing rules:
 | **Rust** | `rust/` | `cd rust && cargo run` |
 | **Swift** | `swift/pomodoro.swift` | `cd swift && ./pomodoro.swift` |
 | **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
+| **JavaScript** | `javascript/pomodoro.js` | `cd javascript && ./pomodoro.js` (or `node javascript/pomodoro.js`) |
 
 ### Graphical User Interface (GUI) - macOS
 
