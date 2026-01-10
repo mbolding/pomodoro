@@ -18,13 +18,13 @@ These scripts run a text-based countdown timer in your terminal.
 
 | Language | File | Run Command |
 |----------|------|-------------|
-| **Python** | `pomodoro.py` | `python3 pomodoro.py` |
-| **Ruby** | `pomodoro.rb` | `ruby pomodoro.rb` |
-| **Shell** | `pomodoro.sh` | `./pomodoro.sh` (or `bash pomodoro.sh`) |
-| **C** | `pomodoro.c` | `clang -o pomodoro_c pomodoro.c && ./pomodoro_c` |
-| **Rust** | `pomodoro_rust/` | `cd pomodoro_rust && cargo run` |
-| **Swift** | `pomodoro.swift` | `./pomodoro.swift` (or `swift pomodoro.swift`) |
-| **Lua** | `pomodoro.lua` | `./pomodoro.lua` (or `lua pomodoro.lua`) |
+| **Python** | `python/pomodoro.py` | `cd python && python3 pomodoro.py` |
+| **Ruby** | `ruby/pomodoro.rb` | `cd ruby && ruby pomodoro.rb` |
+| **Shell** | `shell/pomodoro.sh` | `cd shell && ./pomodoro.sh` |
+| **C** | `c/pomodoro.c` | `cd c && clang -o pomodoro_c pomodoro.c && ./pomodoro_c` |
+| **Rust** | `rust/` | `cd rust && cargo run` |
+| **Swift** | `swift/pomodoro.swift` | `cd swift && ./pomodoro.swift` |
+| **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
 
 ### Graphical User Interface (GUI)
 
@@ -32,8 +32,8 @@ Native macOS implementations using Swift.
 
 | Type | File | Description | Run Command |
 |------|------|-------------|-------------|
-| **Cocoa App** | `pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. | `./pomodoro_GUI.swift` |
-| **Analog Clock** | `clock.swift` | An analog clock visualization with animated hands and dot markers. | `./clock.swift` |
+| **Cocoa App** | `swift/pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. | `cd swift && ./pomodoro_GUI.swift` |
+| **Analog Clock** | `swift/clock.swift` | An analog clock visualization with animated hands and dot markers. | `cd swift && ./clock.swift` |
 
 ## Requirements
 
