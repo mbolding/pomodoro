@@ -1,4 +1,5 @@
 clock
 pomodoro_c
+pomodoro_go
 .DS_Store
 pomodoro_rust/target/
