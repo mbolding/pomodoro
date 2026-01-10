@@ -24,6 +24,7 @@ These scripts run a text-based countdown timer in your terminal.
 | **C** | `pomodoro.c` | `clang -o pomodoro_c pomodoro.c && ./pomodoro_c` |
 | **Rust** | `pomodoro_rust/` | `cd pomodoro_rust && cargo run` |
 | **Swift** | `pomodoro.swift` | `./pomodoro.swift` (or `swift pomodoro.swift`) |
+| **Lua** | `pomodoro.lua` | `./pomodoro.lua` (or `lua pomodoro.lua`) |
 
 ### Graphical User Interface (GUI)
 
@@ -41,3 +42,4 @@ Native macOS implementations using Swift.
 - **Ruby**: For `pomodoro.rb`.
 - **Rust/Cargo**: For `pomodoro_rust`.
 - **C Compiler**: Clang or GCC for `pomodoro.c`.
+- **Lua**: For `pomodoro.lua`.
