@@ -27,9 +27,13 @@ All implementations adhere to the following timing rules:
 | **Shell** | `shell/pomodoro.sh` | `cd shell && ./pomodoro.sh` |
 | **C** | `c/pomodoro.c` | `cd c && clang -o pomodoro_c pomodoro.c && ./pomodoro_c` |
 | **Rust** | `rust/` | `cd rust && cargo run` |
-| **Swift** | `swift/pomodoro.swift` | `cd swift && ./pomodoro.swift` |
+| **Swift** | `swift/pomodoro.swift` | `cd swift && swift pomodoro.swift` |
 | **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
 | **JavaScript** | `javascript/pomodoro.js` | `cd javascript && ./pomodoro.js` (or `node javascript/pomodoro.js`) |
+| **Go** | `go/pomodoro.go` | `cd go && go run pomodoro.go` |
+| **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
+| **Awk** | `awk/pomodoro.awk` | `cd awk && ./pomodoro.awk` |
+| **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
 
 ### Graphical User Interface (GUI) - macOS
 

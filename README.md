@@ -23,9 +23,13 @@ These scripts run a text-based countdown timer in your terminal.
 | **Shell** | `shell/pomodoro.sh` | `cd shell && ./pomodoro.sh` |
 | **C** | `c/pomodoro.c` | `cd c && clang -o pomodoro_c pomodoro.c && ./pomodoro_c` |
 | **Rust** | `rust/` | `cd rust && cargo run` |
-| **Swift** | `swift/pomodoro.swift` | `cd swift && ./pomodoro.swift` |
+| **Swift** | `swift/pomodoro.swift` | `cd swift && swift pomodoro.swift` |
 | **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
 | **JavaScript** | `javascript/pomodoro.js` | `cd javascript && ./pomodoro.js` (or `node javascript/pomodoro.js`) |
+| **Go** | `go/pomodoro.go` | `cd go && go run pomodoro.go` |
+| **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
+| **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
+| **Awk** | `awk/pomodoro.awk` | `cd awk && ./pomodoro.awk` |
 
 ### Graphical User Interface (GUI)
 
@@ -38,9 +42,13 @@ Native macOS implementations using Swift.
 
 ## Requirements
 
-- **macOS**: The Swift scripts and Cocoa apps are designed for macOS.
+- **macOS**: The Cocoa apps (Swift) and AppleScript are designed for macOS.
+- **Swift**: For `pomodoro.swift` (Linux/macOS) and the macOS GUI apps.
 - **Python 3**: For `pomodoro.py`.
 - **Ruby**: For `pomodoro.rb`.
 - **Rust/Cargo**: For `pomodoro_rust`.
 - **C Compiler**: Clang or GCC for `pomodoro.c`.
 - **Lua**: For `pomodoro.lua`.
+- **Go**: For `pomodoro.go`.
+- **Perl**: For `pomodoro.pl`.
+- **Awk**: For `pomodoro.awk`.

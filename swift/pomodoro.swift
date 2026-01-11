@@ -1,4 +1,3 @@
-#!/usr/bin/env swift
 // A simple command-line Pomodoro timer in Swift
 
 import Foundation

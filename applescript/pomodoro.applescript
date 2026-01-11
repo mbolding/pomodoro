@@ -1,4 +1,3 @@
-#!/usr/bin/osascript
 -- A simple command-line Pomodoro timer in AppleScript
 
 property workDuration : 25
