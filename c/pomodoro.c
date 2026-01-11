@@ -28,7 +28,7 @@ void cleanup(int sig) {
 
 int countdown(int duration_minutes, const char *label) {
     int total_seconds = duration_minutes * 60;
-    char time_str[6];
+    char time_str[16]; // Increased buffer size
 
     printf("\n%s - %d minutes\n", label, duration_minutes);
     printf("------------------------------\n");
