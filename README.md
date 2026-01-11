@@ -1,6 +1,6 @@
 # Polyglot Pomodoro
 
-A collection of simple Pomodoro timer implementations in various programming languages. This project serves as a "Rosetta Stone" for comparing how different languages handle basic console I/O, timing, and logic, as well as some GUI implementations.
+A collection of simple Pomodoro timer implementations in various programming languages. This project is a personal "Rosetta Stone" for comparing how different languages handle basic console I/O, timing, and logic, as well as some GUI implementations.
 
 ## Features
 
