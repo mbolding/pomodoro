@@ -30,6 +30,7 @@ These scripts run a text-based countdown timer in your terminal.
 | **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
 | **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
 | **Awk** | `awk/pomodoro.awk` | `cd awk && ./pomodoro.awk` |
+| **Tcl** | `tcl/pomodoro.tcl` | `cd tcl && ./pomodoro.tcl` |
 
 ### Graphical User Interface (GUI)
 
@@ -52,3 +53,4 @@ Native macOS implementations using Swift.
 - **Go**: For `pomodoro.go`.
 - **Perl**: For `pomodoro.pl`.
 - **Awk**: For `pomodoro.awk`.
+- **Tcl**: For `pomodoro.tcl`.

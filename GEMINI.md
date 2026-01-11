@@ -33,6 +33,7 @@ All implementations adhere to the following timing rules:
 | **Go** | `go/pomodoro.go` | `cd go && go run pomodoro.go` |
 | **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
 | **Awk** | `awk/pomodoro.awk` | `cd awk && ./pomodoro.awk` |
+| **Tcl** | `tcl/pomodoro.tcl` | `cd tcl && ./pomodoro.tcl` |
 | **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
 
 ### Graphical User Interface (GUI) - macOS

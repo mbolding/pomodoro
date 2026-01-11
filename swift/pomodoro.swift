@@ -1,4 +1,6 @@
 // A simple command-line Pomodoro timer in Swift
+// runs on linux and macos (windows not tested)
+// TODO: ctrl-C does not exit this program on linux
 
 import Foundation
 
@@ -52,7 +54,7 @@ print("  Work session:  \(workDuration) min")
 print("  Short break:   \(shortBreak) min")
 print("  Long break:    \(longBreak) min (every \(pomodorosBeforeLongBreak) pomodoros)")
 print(String(repeating: "=", count: 40))
-print("Press Ctrl+C to stop\n")
+print("Press Ctrl+C to stop\n") 
 
 while isRunning {
     pomodoroCount += 1
