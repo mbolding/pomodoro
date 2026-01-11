@@ -38,8 +38,8 @@ Native macOS implementations using Swift.
 
 | Type | File | Description | Run Command |
 |------|------|-------------|-------------|
-| **Cocoa App** | `swift/pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. | `cd swift && ./pomodoro_GUI.swift` |
-| **Analog Clock** | `swift/clock.swift` | An analog clock visualization with animated hands and dot markers. | `cd swift && ./clock.swift` |
+| **Cocoa App** | `swift/pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. No Xcode required. | `cd swift && ./pomodoro_GUI.swift` |
+| **Analog Clock** | `swift/clock.swift` | An analog clock visualization with animated hands and dot markers. No Xcode required. | `cd swift && ./clock.swift` |
 
 ## Requirements
 
