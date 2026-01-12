@@ -1,6 +1,5 @@
 // A simple command-line Pomodoro timer in Swift
 // runs on linux and macos (windows not tested)
-// TODO: ctrl-C does not exit this program on linux
 
 import Foundation
 
