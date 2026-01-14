@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """A Pomodoro timer with Tkinter GUI."""
 
 import tkinter as tk
