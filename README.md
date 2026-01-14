@@ -36,18 +36,19 @@ These scripts run a text-based countdown timer in your terminal.
 
 ### Graphical User Interface (GUI)
 
-Native macOS implementations using Swift.
+Cross-platform and native GUI implementations.
 
 | Type | File | Description | Run Command |
 |------|------|-------------|-------------|
-| **Cocoa App** | `swift/pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. No Xcode required. | `cd swift && ./pomodoro_GUI.swift` |
-| **Analog Clock** | `swift/clock.swift` | An analog clock visualization with animated hands and dot markers. No Xcode required. | `cd swift && ./clock.swift` |
+| **Python/Tkinter** | `python-gui/pomodoro_gui.py` | Cross-platform GUI with Start/Pause/Reset controls. Uses Tkinter (included with Python). | `cd python-gui && python3 pomodoro_gui.py` |
+| **Cocoa App** | `swift/pomodoro_GUI.swift` | A minimal windowed app with Start/Reset controls. No Xcode required. macOS only. | `cd swift && ./pomodoro_GUI.swift` |
+| **Analog Clock** | `swift/clock.swift` | An analog clock visualization with animated hands and dot markers. No Xcode required. macOS only. | `cd swift && ./clock.swift` |
 
 ## Requirements
 
 - **macOS**: The Cocoa apps (Swift) and AppleScript are designed for macOS.
 - **Swift**: For `pomodoro.swift` (Linux/macOS) and the macOS GUI apps.
-- **Python 3**: For `pomodoro.py`.
+- **Python 3**: For `pomodoro.py` and the Tkinter GUI (`python-gui/`). Tkinter is included with most Python installations.
 - **Ruby**: For `pomodoro.rb`.
 - **Rust/Cargo**: For `pomodoro_rust`.
 - **C Compiler**: Clang or GCC for `pomodoro.c`.
