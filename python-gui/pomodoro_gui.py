@@ -14,7 +14,7 @@ class PomodoroTimer:
     def __init__(self, root):
         self.root = root
         self.root.title("Pomodoro Timer")
-        self.root.geometry("400x300")
+        self.root.geometry("500x300")
         self.root.resizable(False, False)
 
         self.time_remaining = WORK_DURATION
@@ -24,6 +24,9 @@ class PomodoroTimer:
         self.timer_id = None
 
         self.setup_ui()
+
+        # Handle window close button
+        self.root.protocol("WM_DELETE_WINDOW", self.quit_app)
 
     def setup_ui(self):
         # Status label
@@ -74,6 +77,15 @@ class PomodoroTimer:
             font=font.Font(size=12)
         )
         self.reset_btn.pack(side=tk.LEFT, padx=5)
+
+        self.quit_btn = tk.Button(
+            button_frame,
+            text="Quit",
+            command=self.quit_app,
+            width=10,
+            font=font.Font(size=12)
+        )
+        self.quit_btn.pack(side=tk.LEFT, padx=5)
 
     def format_time(self):
         """Format time as MM:SS."""
@@ -164,6 +176,12 @@ class PomodoroTimer:
 
         self.timer_label.config(text=self.format_time())
         self.start_pause_btn.config(text="Start")
+
+    def quit_app(self):
+        """Quit the application."""
+        if self.timer_id:
+            self.root.after_cancel(self.timer_id)
+        self.root.destroy()
 
 
 def main():
