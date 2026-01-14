@@ -26,6 +26,7 @@ These scripts run a text-based countdown timer in your terminal.
 | **Swift** | `swift/pomodoro.swift` | `cd swift && swift pomodoro.swift` |
 | **Lua** | `lua/pomodoro.lua` | `cd lua && ./pomodoro.lua` |
 | **JavaScript** | `javascript/pomodoro.js` | `cd javascript && ./pomodoro.js` (or `node javascript/pomodoro.js`) |
+| **Java** | `java/Pomodoro.java` | `cd java && javac Pomodoro.java && java Pomodoro` |
 | **Go** | `go/pomodoro.go` | `cd go && go run pomodoro.go` |
 | **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
 | **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
@@ -51,6 +52,7 @@ Native macOS implementations using Swift.
 - **C Compiler**: Clang or GCC for `pomodoro.c`.
 - **Lua**: For `pomodoro.lua`.
 - **Go**: For `pomodoro.go`.
+- **Java**: JDK 8 or higher for `Pomodoro.java`.
 - **Perl**: For `pomodoro.pl`.
 - **Awk**: For `pomodoro.awk`.
 - **Tcl**: For `pomodoro.tcl`.
