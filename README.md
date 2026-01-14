@@ -29,6 +29,7 @@ These scripts run a text-based countdown timer in your terminal.
 | **Java** | `java/Pomodoro.java` | `cd java && javac Pomodoro.java && java Pomodoro` |
 | **Go** | `go/pomodoro.go` | `cd go && go run pomodoro.go` |
 | **Perl** | `perl/pomodoro.pl` | `cd perl && ./pomodoro.pl` |
+| **PHP** | `php/pomodoro.php` | `cd php && ./pomodoro.php` (or `php php/pomodoro.php`) |
 | **AppleScript** | `applescript/pomodoro.applescript` | `cd applescript && osascript pomodoro.applescript` |
 | **Awk** | `awk/pomodoro.awk` | `cd awk && ./pomodoro.awk` |
 | **Tcl** | `tcl/pomodoro.tcl` | `cd tcl && ./pomodoro.tcl` |
@@ -54,5 +55,6 @@ Native macOS implementations using Swift.
 - **Go**: For `pomodoro.go`.
 - **Java**: JDK 8 or higher for `Pomodoro.java`.
 - **Perl**: For `pomodoro.pl`.
+- **PHP**: PHP CLI with PCNTL extension for `pomodoro.php`.
 - **Awk**: For `pomodoro.awk`.
 - **Tcl**: For `pomodoro.tcl`.
